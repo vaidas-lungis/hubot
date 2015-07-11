@@ -1,2 +1,3 @@
 export HUBOT_SLACK_TOKEN=your-token-here
 export HUBOT_UPTIMEROBOT_APIKEY=api-key-here
+export HUBOT_SUBSCRIPTIONS_PASSWORD="key"   # Optional password for protecting HTTP API calls

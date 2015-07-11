@@ -9,5 +9,6 @@
   "hubot-rules",
   "hubot-uptimerobot",
   "hubot-karma-classic",
+  "hubot-pubsub",
   "hubot-shipit"
 ]
