@@ -56,9 +56,9 @@ module.exports = (robot) ->
   robot.respond /h(?:ostinger)? backup list ([a-z0-9]+)/i, (msg) ->
     username = msg.match[1]
     rabbitApi {
-      uri: '/admin/reseller/client/account/transfers-list',
+      uri: '/admin/backup/account/backups',
       username: username,
-      method: 'get',
+      method: 'post',
     }
 
   robot.respond /h(?:ostinger)? backup move ([a-z0-9]+)/i, (msg) ->
