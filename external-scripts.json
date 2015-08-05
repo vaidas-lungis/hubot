@@ -3,5 +3,6 @@
   "hubot-redis-brain",
   "hubot-karma-classic",
   "hubot-auth",
-  "hubot-pubsub"
+  "hubot-pubsub",
+  "hubot-nagios"
 ]

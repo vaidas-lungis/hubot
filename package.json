@@ -13,7 +13,9 @@
     "hubot-scripts": "^2.16.1",
     "hubot-slack": "^3.3.0",
     "amqp": "^0.2.4",
-    "hubot-auth": "^1.2.0"
+    "hubot-auth": "^1.2.0",
+    "hubot-xmpp": "^0.1.16",
+    "hubot-nagios": "0.0.2"
   },
   "engines": {
     "node": "0.10.x"
