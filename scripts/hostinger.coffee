@@ -12,6 +12,8 @@
 # Commands:
 #   hubot hostinger backup list <username> - List backups for username.
 #   hubot hostinger backup move <username> - move backup to /home/<username>/public_html
+#   hubot hostinger hosted <domain> - check if domain is already hosted
+#   hubot hostinger show null routed ips - display currently null routed ips
 #
 # Author:
 #   fordnox
@@ -74,5 +76,11 @@ module.exports = (robot) ->
     rabbitApi {
       uri: '/admin/reseller/client/order/is_domain_hosted',
       domain: domain,
+      method: 'post',
+    }
+
+  robot.respond /h(?:ostinger)? show null routed ips/i, (msg) ->
+    rabbitApi {
+      uri: '/admin/health/null_routed_ips',
       method: 'post',
     }
