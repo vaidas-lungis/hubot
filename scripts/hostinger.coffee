@@ -68,3 +68,11 @@ module.exports = (robot) ->
       username: username,
       method: 'post',
     }
+
+  robot.respond /h(?:ostinger)? hosted ([\S]+)/i, (msg) ->
+    domain = msg.match[1]
+    rabbitApi {
+      uri: '/admin/reseller/client/order/is_domain_hosted',
+      domain: domain,
+      method: 'post',
+    }
