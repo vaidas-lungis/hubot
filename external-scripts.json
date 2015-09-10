@@ -4,6 +4,5 @@
   "hubot-karma-classic",
   "hubot-auth",
   "hubot-pubsub",
-  "hubot-asana",
   "hubot-nagios"
 ]

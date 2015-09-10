@@ -15,8 +15,7 @@
     "amqp": "^0.2.4",
     "hubot-auth": "^1.2.0",
     "hubot-xmpp": "^0.1.16",
-    "hubot-nagios": "0.0.2",
-    "hubot-asana": "^1.0.1"
+    "hubot-nagios": "0.0.2"
   },
   "engines": {
     "node": "0.10.x"
