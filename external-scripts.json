@@ -7,5 +7,6 @@
   "hubot-nagios",
   "hubot-reactions",
   "hubot-simple-logger",
+  "hubot-hostinger",
   "hubot-links"
 ]
