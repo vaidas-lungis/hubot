@@ -6,19 +6,16 @@
   "description": "Hostinger Bot",
   "dependencies": {
     "hubot": "^2.13.2",
-    "hubot-auth": "^1.2.0",
     "hubot-help": "^0.1.1",
     "hubot-karma-classic": "^1.0.2",
     "hubot-links": "0.0.1",
     "hubot-nagios": "0.0.2",
     "hubot-pubsub": "^1.0.2",
-    "hubot-reactions": "^1.0.4",
     "hubot-redis-brain": "0.0.3",
     "hubot-scripts": "^2.16.1",
     "hubot-simple-logger": "git+https://github.com/anarcher/hubot-simple-logger.git",
     "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#0.0.1",
-    "hubot-slack": "^3.3.0",
-    "hubot-xmpp": "^0.1.16"
+    "hubot-xmpp": "0.2.1"
   },
   "engines": {
     "node": "0.10.x"

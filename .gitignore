@@ -3,3 +3,4 @@ node_modules
 .hubot_history
 hubot.conf
 .idea
+npm-debug.log
