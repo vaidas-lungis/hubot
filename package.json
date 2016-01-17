@@ -5,7 +5,6 @@
   "author": "Hubot <hubot@hostinger.com>",
   "description": "Hostinger Bot",
   "dependencies": {
-    "amqp": "^0.2.4",
     "hubot": "^2.13.2",
     "hubot-auth": "^1.2.0",
     "hubot-help": "^0.1.1",
