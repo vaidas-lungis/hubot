@@ -2,10 +2,8 @@
   "hubot-help",
   "hubot-redis-brain",
   "hubot-karma-classic",
-  "hubot-auth",
   "hubot-pubsub",
   "hubot-nagios",
-  "hubot-reactions",
   "hubot-simple-logger",
   "hubot-hostinger",
   "hubot-links"
