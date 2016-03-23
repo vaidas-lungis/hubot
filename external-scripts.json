@@ -6,5 +6,6 @@
   "hubot-nagios",
   "hubot-simple-logger",
   "hubot-hostinger",
-  "hubot-links"
+  "hubot-links",
+  "hubot-chef"
 ]
