@@ -14,7 +14,7 @@
     "hubot-redis-brain": "0.0.3",
     "hubot-scripts": "^2.16.1",
     "hubot-simple-logger": "git+https://github.com/anarcher/hubot-simple-logger.git",
-    "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#0.0.1",
+    "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#e4f108c",
     "hubot-xmpp": "0.2.1",
     "hubot-chef": "2.7.0"
   },
