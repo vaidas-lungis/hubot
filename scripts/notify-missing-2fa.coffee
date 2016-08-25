@@ -36,7 +36,6 @@ module.exports = (robot) ->
   namesList = []
   robot.respond regex, (msg) ->    
     github.get secFAService, {}, (users) ->
-      users=[]
       if !_.isEmpty users
         namesList.push user.login for user in users          
         robot.messageRoom(room, namesList.join(', '))
