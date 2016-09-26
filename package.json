@@ -17,7 +17,7 @@
     "hubot-hostinger": "git+https://github.com/hostinger/hubot-hostinger.git#b8ffe84",
     "hubot-awex": "git+https://github.com/hostinger/hubot-awex.git#b3d29aa98c84127ec4aaf310019cc3b07fe9a401",
     "hubot-chef": "2.7.0",
-    "hubot-slack": "4.1.0"
+    "hubot-slack": "4.0.4"
   },
   "engines": {
     "node": "0.10.x"
